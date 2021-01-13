@@ -1,0 +1,40 @@
+Kids Hack Labs
+Winter 2021 term
+Week 01
+Activity: Creating a number guessing game
+
+Steps:
+
+import the random module
+
+create the application main entry point:
+    seed the random number generator
+    get a random number between 1 and 100, put it in a variable
+    create a variable to store the number of guesses the player will
+        be allowed
+    create a variable to control if the game is still being played,
+        set it to True
+    create a variable to control if the game is won, set it to False
+
+    while the game is being played:
+        get a guess from the user. Remember to convert it into an
+	    integer
+	subtract one try from the total tries of the user
+
+        if the answer matches the target:
+	    set the won variable to True
+	    set the "game is being played" variable to False
+	otherwise:
+	    let the user know that their number is wrong.
+
+        if there are no tries left:
+	    set the "game is being played" variable to False
+
+    if the player won the game:
+        congratulate the player using a message
+    otherwise:
+        let the player know they ran out of tries
+
+(create the driver code:)
+if the __name__ attribute of the module is "__main__":
+    call the application main entry point

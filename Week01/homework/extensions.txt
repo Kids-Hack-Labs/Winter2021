@@ -1,0 +1,29 @@
+Kids Hack Labs
+Winter 2021 term
+Week 01
+Extensions/homework: improving user experience:
+
+Note: All extensions below are based on the in-class activity (number
+      guessing game). There is no need to complete them in order
+
+Extensions:
+01) Experiment with the random.seed() functionality by using a fixed
+    seed. Notice how the target number is always the same
+02) Create a welcome message for the user when they start playing
+    the game
+03) Enable the user to choose the range of numbers they are allowed
+    to pick from
+04) Enable the user to choose how many guesses they will be given
+05) When the user guesses a wrong number, let them know whether their
+    guess was higher or lower than the target number.
+06) When the user guesses a wrong number, let them know how many
+    tries they have left
+07) If the user wins the game, let them know how many tries they used
+    to get the right answer
+08) If the user lost the game, let them know what the target number
+    was
+09) Get the user's name, and use it throughout the application as if
+    the machine were actually talking to the player. Example:
+    "Sorry, HErC, you lost the game. The mystery number was 42"
+    *Tip: experiment with Python f-strings.*
+123456789012345678901234567890123456789012345678901234567890123789012
