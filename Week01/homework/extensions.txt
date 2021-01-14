@@ -26,4 +26,18 @@ Extensions:
     the machine were actually talking to the player. Example:
     "Sorry, HErC, you lost the game. The mystery number was 42"
     *Tip: experiment with Python f-strings.*
-123456789012345678901234567890123456789012345678901234567890123789012
+10) Challenge: Convert the game into a multi-round game. The player
+               should be able to play multiple rounds of guesses or
+	       type "q" or "Q" to quit. After each round, the user
+	       should be asked whether they want to keep playing.
+	       Based on the multiple rounds, implement a score system,
+	       and print a breakdown of the player's game when they
+	       decide to quit.
+11) Challenge: Implement data validation: the user should not be able to
+               set a higher number lower than the lower number.
+	       Alternatively, the range should be automatically created
+	       between the two numbers.
+	       The user should not be allowed more guesses than the
+               total of numbers available in the chosen range. The user
+	       should also not be allowed to type numbers outside the
+	       specified range.
