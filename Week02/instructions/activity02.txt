@@ -1,0 +1,18 @@
+Kids Hack Labs
+Winter 2021 term
+Week 02
+Activity 02: Lists and Tuples
+
+Using the previous activity as a basis, store all the information in a
+    single tuple.
+
+Change the f-string to use the appropriate values from the tuple.
+
+Try to change the tuple with new information provided by the user.
+    Notice that this produces an error
+
+Change the tuple into a list. Modify the information again and display
+    it on the screen
+
+Try adding information to the list. Use a for loop to print each item
+    in the list separately

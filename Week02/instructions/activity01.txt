@@ -1,0 +1,31 @@
+Kids Hack Labs
+Winter 2021 term
+Week 02
+Activity 01: Strings
+
+Create five variables to store: first name, last name, day, month, and
+    year of birth.
+
+Using a single f-string, create a variable that includes that info.
+
+Print the message string to the shell.
+    Example: "John Doe was born in May 31, 1983"
+
+
+Prompt the user to input their own information in the variables created
+    before
+
+Print the same message and notice how the values do not change. Print
+    the variables separately and notice how the changes were saved. To
+    change the values in the message, the message variable must be
+    rewritten.
+
+Create a function that rewrites the message so that it prints correctly
+    when the user inputs new values.
+
+Challenge: Rewrite the activity to include a loop where the user is
+    prompted to input different information for different people, and
+    have the message change every time the information variables are
+    updated. Allow the user to stop inputting information by offering
+    an option to stop providing information after the message is
+    printed to the console
