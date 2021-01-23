@@ -1,0 +1,50 @@
+Kids Hack Labs
+Winter 2021 term
+Week 02
+Homework: Zodiac sign calculator
+
+Objective: Create a program where the user inputs their name and date of
+           birth, and the program outputs the person's zodiac sign.
+
+Example input:
+    Name: "John Doe"
+    Day of Birth: 10
+    Month of Birth: "July"
+    
+Example output:
+    "John Doe was born in May 10, so they are a(n) Gemini"
+
+Create the application main entry point:
+    Create a list or tuple to store the names of the months in string
+    format. (Ex.: "January", "February"...)
+    The second container should have the day when the sign changes,
+    according to the month. (Ex.: The sign changes from Capricorn to
+                             Aquarius in Jan. 20, so the first item in
+                             the day list should be 20)
+    The third list should contain the names of the zodiac signs.
+
+    For reference, the zodiac signs dates are listed as below:
+    (You can use other sources. Note that dates can vary slightly)
+
+    Aries: March 21 to April 20
+    Taurus: April 21 to May 21
+    Gemini: May 22 to June 22
+    Cancer: June 23 to July 22
+    Leo: July 23 to August 22
+    Virgo: August 23 to September 22
+    Libra: September 23 to October 22
+    Scorpio: October 23 to November 21
+    Sagittarius: November 22 to December 22
+    Capricorn: December 23 to January 21
+    Aquarius: January 22 to February 20
+    Pisces: February 21 to March 19
+    
+    Get input from the user for the person's name, day of birth and
+    month of birth
+
+    Using the input from the user, output their zodiac sign
+
+Challenge: Work the program into a loop and keep asking the user for
+           names and dates and months, outputting their signs until
+           the user decides to quit. (HINT: use last week's homework
+           as a basis for this challenge)
