@@ -30,3 +30,6 @@ Extension 02: Use the pprint library to pretty-print the shop's
 Extension 03: Allow the user to add items to the shop if they are not
     yet available. In this case, the user should also be prompted for
     the item's cost
+
+Extension 04: Organize your code in functions to streamline and 
+    de-clutter the main function
