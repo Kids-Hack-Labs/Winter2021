@@ -1,0 +1,32 @@
+Kids Hack Labs
+Winter 2021 term
+Week 03
+Activity 01:
+
+Item shop:
+
+Using a dictionary, create a shop with items to be sold to the user.
+The items should have an associated price and the user should be able
+to see a list of available items. The shop should offer at least five
+items to sell to the customer.
+
+The user should have a set amount of money at the beginning of the
+program and use that money to buy the items from the shop. As long as
+the user remains in the store, they are able to buy anything their
+money allows, but the shop owner should let the customer know when
+they are out of money to buy certain items. The user should also be
+able to exit the shop at any time, causing the program to end.
+
+Breakdown of needed functionality:
+The shop: display and sell items.
+User: Check items from the store, buy items, check their own balance.
+
+Extension 01: Have the user be its own dictionary and keep track of how
+    many items they have bought.
+
+Extension 02: Use the pprint library to pretty-print the shop's
+    inventory, or create your own way of pretty-printing it.
+
+Extension 03: Allow the user to add items to the shop if they are not
+    yet available. In this case, the user should also be prompted for
+    the item's cost
