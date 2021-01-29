@@ -1,0 +1,39 @@
+Kids Hack Labs
+Winter 2021 term
+Week 03
+Homework: Supply Run
+
+Using a dictionary, create a shop to keep track of an inventory.
+The user should be able to add and remove items from the shop and print
+a stock of the available items.
+
+Each item should be organized as an item in the shop dictionary as
+follows:
+
+Key: Item name (string)
+Value: List with three items: description (string), price(float) and
+amount(int)
+
+The shop should have a starting menu with four options: "supply",
+"check", "retrieve" and "leave"
+
+When the user begins the program, they are greeted by the shop owner,
+and are asked what action  they want to perform.
+
+If the user chooses to supply items, they must be asked for the item's
+name. If there are already items with that name in stock, the amount
+available in the shop must be updated accordingly. If it is a new item,
+the user should be prompted to provide an item description as well as a
+price for it and an amount to be put in the shop.
+
+If the user chooses to retrieve an item, they will also be asked for
+the item's name. If there is no such item in the inventory, the program
+must tell the user that the item doesn't exist. If the item retrieval
+leaves the shop with none of that item, the item should be taken out of
+the shop's catalogue.
+
+If the user chooses to check the shop's inventory, print ONLY the 
+items' names and the amount available.
+
+If the user chooses to leave the shop, print a farewell message and
+exit the program
