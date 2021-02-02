@@ -32,6 +32,18 @@ The shop class should also refer to the customer by name by reading the
 name attribute of the customer object (ideally, the customer should have
 a get_name() method instead of allowing direct access to its name)
 
+Extra extension 2:
+Create an Item class that includes the item's name, its description, and
+its price. Re-index the inventories on the user and the shop to use the 
+newly-created item objects as indices. When this is done, both the shop
+and the customer will keep track of the amount of available items. If
+the amount of a given item in the inventory reaches zero, the key
+corresponding to the item must be removed from the inventory dictionary.
+If this extension is implemented correctly, you will notice that once an
+item disappears from the inventory, the shop's "sell" method will
+automatically display "I have no {item} to sell", without the programmer
+having to implement a specific check for it.
+
 Challenge (hard):
 Store function pointers to the class's methods in a dictionary and use
 them in the run() method instead of calling each function separately
