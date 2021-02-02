@@ -1,0 +1,37 @@
+Kids Hack Labs
+Winter 2021 term
+Week 04
+Activity:
+
+Item shop class:
+
+Using last week's work as a basis, convert the shop's inventory and 
+functionality into a shop class. For now, the customer side should also
+be inside the shop class.
+
+The main function should only create a shop object and make it run.
+(this means that the main function should only have about three lines
+of code).
+
+The program flow should be the same as last week's, allowing the 
+customers to buy items, check them, and check their own balance. Each
+different piece of functionality must be encapsulated in its own method.
+
+Extensions:
+The same extensions from last week shouls be implemented into the shop
+class.
+
+Extra extension:
+Convert the customer into its own class with its own name, cash amount,
+and inventory. In the inventory dictionary, instead of a price for each 
+item, customers should track the amount of items they have.
+Example:
+Shop class:     shop().items["rusty sword"] == 100.00 (price)
+Customer class: customer().items["rusty sword"] == 5 (amount)
+The shop class should also refer to the customer by name by reading the
+name attribute of the customer object (ideally, the customer should have
+a get_name() method instead of allowing direct access to its name)
+
+Challenge (hard):
+Store function pointers to the class's methods in a dictionary and use
+them in the run() method instead of calling each function separately
