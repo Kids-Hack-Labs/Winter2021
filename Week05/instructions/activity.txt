@@ -1,0 +1,75 @@
+Kids Hack Labs
+Winter 2021 term
+Week 05
+Activity: Price comparison program
+
+Task: 
+
+Given a list of products, quantities, and prices, calculate the price
+ratio (price per quantity) of each product and tell the user which of 
+the options is the best/cheapest.
+
+Task breakdown:
+
+Both input and output are basic text files that contain data separated
+by spaces. Input files contain a string with the product name followed
+by some numbers. Each pair of numbers matches a quantity-price duo, for
+a total of four numbers (two product options). Output files should be 
+formatted in a similar way: A string with the product name followed by
+two numbers matching the price ratio of both option. The last piece of
+data in the line must indicate which option is the best for the user 
+(A or B). If no option is better than the other, the output should be
+formatted as A/B.
+
+Requirements:
+
+Both files must be properly opened and closed during program execution.
+
+The comparison must be performed in a specific class that takes the two
+files (input/output) as file objects in its initializer and runs a
+dedicated compare() method.
+
+Output must be produced in the specified format, with each element 
+separated by spaces. The better option of the two should be indicated
+at the end of the line, with A for the first option or B for the second.
+If no option is better than the other, the recommendation at the end of
+the line should be marked as A/B
+
+Steps:
+
+Create a Comparator class that will be tasked with comparing the prices.
+This class should take two file objects as inputs in its initializer: 
+one file contains the data to be processed, and the other will store the
+program's output.
+
+The Comparator class should have a compare() method. It will take the 
+input file, break down each line into its string and number components,
+perform the price ratio calculations, and write the result to the output
+file.
+
+The application entry point must be the one to open both files and pass
+the file objects to the Comparator's initializer. Once initialized, the
+program should run the Comparator's compare() method.
+
+EXTENSION 1:
+Create your own input file, in the same format as the example one. Use
+the program to produce an output file based on your custom input, and
+check your file for data correctness (tip: use a spreadsheet editor to
+compare the results)
+
+EXTENSION 2:
+Modify your program so that the user can type the input and output file 
+names in the shell. Alternatively, the user should only provide the name
+of the input file, and the output file should have the same name with
+"_output" appended to it.
+
+EXTENSION 3:
+Break down the Comparator's compare() method into their own methods: a
+parse() method to break down each line of the input file into a list
+with a string and four floats; a calculate_ratio() method that takes two
+floats as arguments and returns a float; a compare() method that will
+compare both ratios produced by the calculate_ratio() method; and a
+write() method that will write the output into the file. All methods
+should be properly called a run() method, which will take care of
+iterating through the input file's lines and call the appropriate
+functions in order.
