@@ -1,0 +1,25 @@
+Kids Hack Labs
+Winter 2021 term
+Week 05
+Homework: Shop inventory with files
+
+Task:
+
+Modify your Shop class to initialize the inventory dictionary using a
+text file.
+
+The file should contain a string representing the item's name, followed 
+by an item price.
+HINT: If you want to use multi-word strings for item names, check how to
+use different characters as delimiters in strings' split() method.
+
+
+HOMEWORK EXTENSION:
+The program should output a log file, detailing the actions that the
+user took while shopping.
+Example log:
+"User bought a(n) rusty sword for %100.00."
+"User checked balance."
+"User checked shop inventory."
+"User tried to buy a(n) planetary ring for $1000000.00, but did not have
+enough funds."
