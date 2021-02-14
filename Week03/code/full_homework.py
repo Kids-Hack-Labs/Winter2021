@@ -44,7 +44,7 @@ def main():
             "molten sand": ["a bucket of molten sand",51.93, 3],
             "empty can": ["an empty can of soda", 0.75, 20],
             "inflatable rubber duck": ["hope you have strong lungs", 150.00, 5],
-            "planetary ring": ["taken from a distand planet", 1000000.00, 1]}
+            "planetary ring": ["taken from a distant planet", 1000000.00, 1]}
 
     supplying = True
 
