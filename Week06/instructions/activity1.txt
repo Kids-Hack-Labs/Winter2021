@@ -1,0 +1,54 @@
+Kids Hack Labs
+Winter 2021 term
+Week 06
+Activity 1: CSV file practice
+
+Task:
+Convert last week's program to use CSV-files.
+
+Review:
+Last week, we learned how to read and write text files. Python's
+"native" file handling functionality returns simple strings that
+require "filtering" the information so it can be used.
+
+With CSV files, we can automatically convert each line into a list of
+separate pieces of information. By using csv readers, it becomes easy
+to separate the data we want to use. Just remember that, like with
+files, information in csv is stored automatically as strings, so coders
+still need to convert the information to the types they want to use.
+With csv writers, lists of data can be pushed to file. The programmer
+doesn't even have to worry about the format. Everything is stringified
+automatically.
+
+Breakdown of the task:
+Open Week 05's activity and SAVE IT AS A NEW FILE! Better yet if you
+save it in a separate folder.
+
+Remember to import the csv library at the beginning of the file.
+
+Modify the compare() function in the Comparator class to read from the
+input file using a csv.reader object. The output file should be managed
+by a csv.writer object.
+
+Since the reader object behaves similarly to a list, you can use it
+directly in the for loop. Every line is also a list of data, each piece
+stored in its own index. This means you don't need to use split()
+anymore.
+
+The main algorithm of the compare() method remains the same.
+
+At the end, instead of organizing everything and writing a line with
+the information, you can just use the writer's writerow() method with
+a list that has the name of the products, the ratios, and the answer.
+
+In the main function, the names of the files must match the files we're
+using now. Also, the newline parameter must be specified as an empty
+string, as that fixes the file format. Remember to change both with
+statements (reading and writing). 
+
+EXTENSION:
+Modify the file so that it is able to read an arbitrarily long .csv
+file and output a file with all price ratios and the best deal among
+them. You will have to change the algorithm to perform more than two
+price ratio calculations and comparisons. HINT: use a list to store
+the ratio values.
