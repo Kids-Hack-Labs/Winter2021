@@ -10,20 +10,23 @@ Task breakdown:
 Remember to import the json module at the beginning of your code file.
 
 Using Week 04's activity, change the Shop class to take a file object
-in its constructor. The inventory attribute should be set by reading the
-JSON-formatted string from the file. This means that the dictionary that
-stores the Shop's inventory needs to be taken out from the file and
-stored in a .json file.
+in its constructor. The inventory attribute should be set by reading 
+the JSON-formatted string from the file. This means that the dictionary
+that stores the Shop's inventory needs to be taken out from the file
+and stored in a .json file.
 
 The main() function should open the file and pass a file object to the 
-Shop's constructor. As a safety measure, try to code it so that the file
-is closed after the Shop object construction and before the rest of the
-code actually runs.
+Shop's constructor. As a safety measure, try to code it so that the 
+file is closed after the Shop object construction and before the rest
+of the code actually runs.
 
 As a test, try adding/modifying items to the .json file and then 
 calling the main() function again directly from the shell. If 
 everything worked out right, you just changed the contents of your shop
-without changing a single line of code.
+without changing a single line of code. Also, notice that format 
+conversion is done automatically: you don't have to worry about casting
+strings into numbers for the prices, as the json module does that for 
+you
 
 EXTENSION:
 Allow the user to add items to the shop (use Week 04's extensions) and 
