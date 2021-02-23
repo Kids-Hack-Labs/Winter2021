@@ -1,0 +1,54 @@
+Kids Hack Labs
+Winter 2021 term
+Week 07
+Activity: JSON - Scene Setup
+
+NOTE: All code is contained in the code/Game folder.
+
+Task:
+
+Populate the scene_data.json file with background colour data. Then, 
+read the information in the scene.py file using the scene_info argument.
+
+Task Breakdown:
+
+In the scene_data.json file, insert a key named background. The value
+must be a list of three numbers ranging between 0-255.
+
+Remember to import the Color, Rect and Surface classes from pygame into
+the scene.py file. These imports must be done at the beginning of the
+file.
+
+The Scene class declared in the scene.py file takes two arguments in
+its initializer. The second argument (scene_info) is a dictionary
+that holds all the information read from the scene_data.json file. As
+such, it should have a key named "background", which can be used to
+build a pygame Color object. This Color object must be assigned to a 
+bg_colour attribute of the Scene object.
+
+Now that we have a bg_colour attribute, we can use it to fill our target
+surface in the render function. The syntax is target.fill(COLOUR), where
+COLOUR is the bg_colour attribute we created in the initializer.
+
+Formatting tips:
+
+All data in a .json file must be enclosed in curly braces. This means 
+that the file must begin with opening curly braces and end with closing
+curly braces.
+
+Remember that JSON keys MUST be strings; that is, they must be input
+between quotation marks.
+
+JSON arrays are formatted as Python lists: they're a set of values
+separated by commas and enclosed by square brackets.
+
+There are no data validation mechanisms in place. This means that any
+invalid data in the scene_data.json file will cause the program to
+crash either during the file parsing stage or the colour creation stage.
+Be careful!
+
+Since we're adding code to the Scene class's initializer and render()
+methods, we must erase the pass keyword from them.
+
+Class attributes must be coded using the keyword self. When using these
+attributes, they must also be written using the self keyword.

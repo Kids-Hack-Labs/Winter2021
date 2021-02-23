@@ -1,0 +1,22 @@
+Kids Hack Labs
+Winter 2021 term
+Week 07
+Homework: CSV file prep
+
+Task:
+
+Populate your questions.csv file with your own quiz's data. Each line
+must contain the following pieces of information:
+
+QUESTION,ANSWER 1,ANSWER 2,ANSWER 3,ANSWER 4,TIMER,CORRECT ANSWER
+
+Example:
+(Q)                  ,(A1)     ,(A2)   ,(A3)  ,(A4)    ,(T),(C)
+NOT a moon of Saturn:,Enceladus,Iapetus,Tethys,Callisto,120,4
+
+DO NOT use extra spaces between commas.
+
+There should be AT LEAST 10 (TEN) lines of data in your file.
+
+This is a mandatory homework. We will use this data over the next four
+weeks. Coaches WILL NOT offer a "template solution" to this file.
