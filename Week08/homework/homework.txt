@@ -1,0 +1,17 @@
+Kids Hack Labs
+Winter 2021 term
+Week 08
+Homework: Rendering multiple pieces of text
+
+Task:
+Using the other indices in the scene_text argument passed as part of
+the Scene's initializer, render the text they contain on the screen.
+
+Breakdown of the task:
+In the Scene class's initializer, the argument passed with the name
+scene_text is actually a list of strings with seven items. All items
+can be rendered to the screen as text. Using the first element (built
+in class) as an example, create surfaces for the other six elements in
+the initializer. Remember to get their rects. Next, in the render() 
+method, position these elements and blit them on the screen. Test your
+code by running the quiz.py file.
